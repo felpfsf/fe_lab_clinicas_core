@@ -31,6 +31,7 @@ final class LabClinicasTheme {
         color: secondaryElement,
         fontWeight: FontWeight.w600,
       ),
+      border: _defaultInputBorder,
       enabledBorder: _defaultInputBorder,
       focusedBorder: _defaultInputBorder,
       errorBorder: _defaultInputBorder.copyWith(
