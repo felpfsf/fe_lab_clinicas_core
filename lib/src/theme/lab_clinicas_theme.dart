@@ -52,6 +52,21 @@ final class LabClinicasTheme {
         ),
       ),
     ),
+    outlinedButtonTheme: OutlinedButtonThemeData(
+      style: OutlinedButton.styleFrom(
+        backgroundColor: primaryElement,
+        foregroundColor: secondaryElement,
+        side: const BorderSide(color: secondaryElement),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(16),
+        ),
+        textStyle: const TextStyle(
+          fontFamily: _defaultFontFamily,
+          fontSize: 14,
+          fontWeight: FontWeight.w700,
+        ),
+      ),
+    ),
   );
 
   static final darkTheme = ThemeData();
@@ -72,5 +87,11 @@ final class LabClinicasTheme {
     color: secondaryElement,
     fontWeight: FontWeight.w500,
     fontSize: 28,
+  );
+
+  static const medium16 = TextStyle(
+    color: secondaryElement,
+    fontWeight: FontWeight.w500,
+    fontSize: 16,
   );
 }
