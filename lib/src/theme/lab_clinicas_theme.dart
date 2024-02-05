@@ -94,4 +94,10 @@ final class LabClinicasTheme {
     fontWeight: FontWeight.w500,
     fontSize: 16,
   );
+
+  static const smallBold = TextStyle(
+    color: primaryLabel,
+    fontWeight: FontWeight.w700,
+    fontSize: 14,
+  );
 }
