@@ -106,4 +106,10 @@ final class LabClinicasTheme {
     fontWeight: FontWeight.w700,
     fontSize: 24,
   );
+
+  static const bodyBold18Style = TextStyle(
+    color: secondaryElement,
+    fontWeight: FontWeight.w700,
+    fontSize: 18,
+  );
 }
