@@ -102,7 +102,7 @@ final class LabClinicasTheme {
   );
 
   static const titleSmallBoldStyle = TextStyle(
-    color: secondaryElement,
+    color: primaryElement,
     fontWeight: FontWeight.w700,
     fontSize: 24,
   );
