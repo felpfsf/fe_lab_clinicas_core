@@ -13,7 +13,7 @@ class LabClinicasAppbar extends AppBar {
               boxShadow: [
                 BoxShadow(
                   color: Colors.black.withOpacity(0.5),
-                  offset: Offset(0, 1),
+                  offset: const Offset(0, 1),
                   blurRadius: 4,
                 ),
               ],
