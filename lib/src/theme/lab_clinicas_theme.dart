@@ -101,6 +101,12 @@ final class LabClinicasTheme {
     fontSize: 14,
   );
 
+  static const smallBody = TextStyle(
+    color: secondaryElement,
+    fontWeight: FontWeight.w400,
+    fontSize: 14,
+  );
+
   static const titleSmallBoldStyle = TextStyle(
     color: primaryElement,
     fontWeight: FontWeight.w700,
