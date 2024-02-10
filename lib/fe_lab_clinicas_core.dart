@@ -10,7 +10,8 @@ export 'src/helpers/messages.dart';
 
 export 'src/lab_clinicas_core_config.dart';
 
-export 'src/rest_client/rest_client.dart';
+export 'src/rest_client/rest_client.dart'
+  if(dart.library.html) 'src/rest_client/rest_client_web.dart';
 
 export 'src/exceptions/auth_exception.dart';
 export 'src/exceptions/repository_exception.dart';
